@@ -72,6 +72,33 @@ nav li a{
     margin-top: 20px;
     width: 100%;
 }
+/* facts section */
+ .facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding:30px 30px ;
+}
+    
+    .facts-card-container .card-title{
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+        
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+    
+.facts-card-container .card-states{
+font-size: 1.8rem;
+color: #424242;
+margin-top: 10px;
+margin-bottom:10px ;
+
+
+}
 
 /*responsive media queries*/
 /* mobile devices */
@@ -126,4 +153,5 @@ main{
     font-weight: 700px;
 }
     
+
 
