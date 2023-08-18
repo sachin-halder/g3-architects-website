@@ -8,6 +8,10 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif
 }
+.text-light-gray{
+    color: #727272;
+}
+}
 .btn-primary{
     border-radius: 8px;
     color: #FFF;
@@ -74,7 +78,10 @@ nav li a{
 @media screen and(max width: 576px){
     header{
         padding: 20px;
-    }  
+    } 
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    } 
 }
 .nav{
     flex-direction: column;
@@ -114,5 +121,9 @@ main{
     color: #727272;
     font-weight: 500;
 } 
+.teams-title .text-feature{
+    color: #FF900E;
+    font-weight: 700px;
+}
     
 
